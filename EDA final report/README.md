@@ -1,6 +1,7 @@
 Exploratory Data Analysis (EDA) Report: Logistics Dataset
 
 1. Objective
+
 The goal of this project is to analyse logistics data to identify factors contributing to delays and propose actionable recommendations for operational improvements. This analysis focuses on exploring relationships between traffic conditions, shipment statuses, user behaviour, and time-based trends to optimise logistics efficiency.
 
 2. Dataset Overview
