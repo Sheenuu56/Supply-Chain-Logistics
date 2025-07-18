@@ -4,33 +4,24 @@ Objective:
 To build a machine learning model that predicts whether a shipment will be delayed or not based on various factors like traffic status, weather conditions, asset utilization, and demand forecast.
 
 ✅ Workflow Summary:
-Data Cleaning:
 
-Removed irrelevant columns and cleaned null values
-
-Handled date-time features and extracted relevant parts (Month, Year, Hour)
+DATA CLEANING:
+1. Removed irrelevant columns and cleaned null values.
+2. Handled date-time features and extracted relevant parts (Month, Year, Hour).
 
 EDA (Exploratory Data Analysis):
+1. Identified key factors influencing shipment delays (e.g., weather, mechanical failures).
+2. Used heatmaps, pairplots, and countplots to explore relationships.
 
-Identified key factors influencing shipment delays (e.g., weather, mechanical failures)
+FEATURE ENGINEERING:
+1. One-hot encoded categorical features.
+2. Dropped features that contributed minimal value to the model.
+3. Normalized numerical columns.
 
-Used heatmaps, pairplots, and countplots to explore relationships
-
-Feature Engineering:
-
-One-hot encoded categorical features
-
-Dropped features that contributed minimal value to the model
-
-Normalized numerical columns
-
-Model Selection & Building:
-
-Tried several classifiers: Logistic Regression, Decision Tree, Random Forest, XGBoost
-
-Most models showed poor recall, especially for the delayed class
-
-SMOTE and XGBoost failed due to compatibility issues with the current Python version
+MODEL SELECTION AND BUILDING:
+1. Tried several classifiers: Logistic Regression, Decision Tree, Random Forest, XGBoost.
+2. Most models showed poor recall, especially for the delayed class.
+3. SMOTE and XGBoost failed due to compatibility issues with the current Python version.
 
 Final choice: Decision Tree Classifier with class_weight='balanced'
 
@@ -44,11 +35,9 @@ Confusion Matrix
     [[87 0]	
     [44 69]]	
 
-The model performs well on overall accuracy
-
-Recall improved significantly after using class_weight='balanced', reaching ~73% for the delayed class with some models
-
-Still some misclassification for delayed shipments, but better than baseline
+The model performs well on overall accuracy.
+Recall improved significantly after using class_weight='balanced', reaching ~73% for the delayed class with some models.
+Still some misclassification for delayed shipments, but better than baseline.
 
 📌 Conclusion:
 This model is now capable of predicting delayed shipments with reasonably high recall, making it useful for identifying logistics bottlenecks. The project demonstrates a full pipeline from raw data to a working predictive model.
