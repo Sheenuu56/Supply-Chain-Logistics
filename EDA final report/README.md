@@ -93,13 +93,16 @@ The goal of this project is to analyse logistics data to identify factors contri
     * Collaborate with meteorological services for real-time weather updates to dynamically optimise logistics operations.
 
 
-5. Next Steps
-1. Dashboard Creation:
+5. Next Steps:
+   
+5.1. Dashboard Creation:
     * Develop an interactive dashboard using tools like Power BI, Tableau, or Python libraries to visualise key metrics dynamically.
-2. Predictive Model (Optional):
+    
+5.2. Predictive Model (Optional):
     * Build a model to forecast logistics delays based on current and historical data.
     * Consider features like traffic status, time of day, and inventory levels for model training.
-3. Report and Presentation:
+    
+5.3. Report and Presentation:
     * Use this analysis to inform stakeholders and guide decision-making.
     * Prepare a polished presentation with visual aids (charts, graphs) to communicate insights effectively.
 
