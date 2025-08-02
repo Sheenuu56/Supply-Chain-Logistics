@@ -66,22 +66,22 @@ The goal of this project is to analyse logistics data to identify factors contri
 
 
 4. Recommendations
-1. Traffic Optimisation:
+4.1. Traffic Optimisation:
     * Utilise predictive traffic monitoring to identify and avoid congested routes.
     * Leverage GPS-based dynamic routing systems to suggest alternate pathways during high-traffic periods.
-2. Operational Adjustments:
+4.2. Operational Adjustments:
     * Redistribute resources to address peak times and days with high delays.
     * Implement a real-time tracking system to monitor delays and adjust schedules proactively.
-3. Customer-Centric Strategies:
+4.3. Customer-Centric Strategies:
     * Prioritise shipments for high-value or frequent customers to maintain loyalty.
     * Offer compensations or incentives for delayed deliveries to retain customer trust.
-4. Focus on Delay Reasons:
+4.4. Focus on Delay Reasons:
     * Mitigate the most frequent causes of delays (e.g., traffic) through targeted interventions such as predictive analytics and collaboration with local authorities.
     * Address operational inefficiencies by standardising processes and conducting staff training.
-5. Advanced Analysis:
+4.5. Advanced Analysis:
     * Conduct clustering or regression analysis to uncover hidden patterns and relationships.
     * Integrate time-series forecasting to predict high-demand periods and plan resources accordingly.
-6. Weather-Related Recommendations:
+4.6. Weather-Related Recommendations:
     * Implement predictive analytics using historical weather data to anticipate delays and adjust schedules proactively.
     * Introduce contingency plans, such as alternative routes or additional delivery time buffers, for regions prone to severe weather conditions.
     * Collaborate with meteorological services for real-time weather updates to dynamically optimise logistics operations.
